@@ -1,6 +1,6 @@
 {
   "name": "@neelify/baileys",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "description": "WhatsApp API for @neelify/wa-api, a multi-device WhatsApp Web API client",
   "keywords": [
     "whatsapp",

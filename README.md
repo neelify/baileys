@@ -1,9 +1,9 @@
 <div align="center">
 
-# ðŸŒ¸ @neelify/baileys ðŸŒ¸
+# 🌸 @neelify/baileys 🌸
 
 ### *Die WhatsApp Web API, die alles kann*  
-### *Smart Queue Â· QR-Code Â· Message ID Â· LID Â· TypeScript*
+### *Smart Queue · QR-Code · Message ID · LID · TypeScript*
 
 [![Version](https://img.shields.io/badge/Version-2.0.2-ff69b4?style=for-the-badge&logo=github)](https://github.com/neelify/baileys)
 [![Baileys API](https://img.shields.io/badge/Baileys_API-1.7.2-9b59b6?style=for-the-badge)](https://github.com/neelify/baileys)
@@ -18,69 +18,69 @@
   <img src="https://files.catbox.moe/ru1msl.jpeg" width="720" alt="Neele Baileys Header" />
 </p>
 
-| ðŸ“¦ Paket | ðŸŽ¯ Baileys API | âœ¨ Highlights |
+| 📦 Paket | 🎯 Baileys API | ✨ Highlights |
 |----------|----------------|----------------|
-| **@neelify/baileys v2.0.2** | **1.7.2** | Upstream-Updates Â· QR-Code Â· Message ID Â· Update-Check von npm |
+| **@neelify/baileys v2.0.2** | **1.7.2** | Upstream-Updates · QR-Code · Message ID · Update-Check von npm |
 
-**âœ¨ v2.0.2** Â· README Glow-Up Â· Kompatibel mit Baileys **1.7.2** Â· QR & Message ID unverÃ¤ndert Â· Update-PrÃ¼fung via npm-Registry
+**✨ v2.0.2** · README Glow-Up · Kompatibel mit Baileys **1.7.2** · QR & Message ID unverändert · Update-Prüfung via npm-Registry
 
-[**Installation**](#-installation) Â· [**Quickstart**](#-quickstart-guide) Â· [**Features**](#-neue-features-in-version-200) Â· [**Dokumentation**](#-dokumentation) Â· [**Support**](#-support--community)
+[**Installation**](#-installation) · [**Quickstart**](#-quickstart-guide) · [**Features**](#-neue-features-in-version-200) · [**Dokumentation**](#-dokumentation) · [**Support**](#-support--community)
 
 </div>
 
 ---
 
-## ðŸ“‹ Inhaltsverzeichnis
+## 📋 Inhaltsverzeichnis
 
-- [âœ¨ Warum @neelify/baileys?](#-warum-neelifybaileys)
-- [ðŸš€ Installation](#-installation)
-- [ðŸ“– Quickstart Guide](#-quickstart-guide)
-- [âœ¨ Neue Features in Version 2.0.2](#-neue-features-in-version-202)
-- [ðŸ’¡ Grundlegende Verwendung](#-grundlegende-verwendung)
-- [ðŸŽ¯ Erweiterte Features](#-erweiterte-features)
-- [ðŸ“š Dokumentation](#-dokumentation)
-- [âš ï¸ Wichtige Hinweise](#ï¸-wichtige-hinweise)
-- [ðŸ’¬ Support & Community](#-support--community)
+- [✨ Warum @neelify/baileys?](#-warum-neelifybaileys)
+- [🚀 Installation](#-installation)
+- [📖 Quickstart Guide](#-quickstart-guide)
+- [✨ Neue Features in Version 2.0.2](#-neue-features-in-version-202)
+- [💡 Grundlegende Verwendung](#-grundlegende-verwendung)
+- [🎯 Erweiterte Features](#-erweiterte-features)
+- [📚 Dokumentation](#-dokumentation)
+- [⚠️ Wichtige Hinweise](#️-wichtige-hinweise)
+- [💬 Support & Community](#-support--community)
 
 ---
 
-## âœ¨ Warum @neelify/baileys?
+## ✨ Warum @neelify/baileys?
 
 <div align="center">
 
-### ðŸŒŸ **Zauberhafte Vorteile** ðŸŒŸ
+### 🌟 **Zauberhafte Vorteile** 🌟
 
 </div>
 
 | Feature | Beschreibung | Status |
 |---------|-------------|--------|
-| ðŸ§  **Leichtgewichtig** | Keine Browser- oder Selenium-Monster nÃ¶tig! | âœ… |
-| ðŸŒˆ **WebSocket-Magie** | Direkt, schnell & stabil | âœ… |
-| ðŸ’– **Multi-Device** | VollstÃ¤ndige UnterstÃ¼tzung | âœ… |
-| ðŸ§© **LID-Kompatibel** | Linked ID Erkennung & Nutzung | âœ… |
-| ðŸ§· **TypeScript** | Saubere Typen, DX zum Verlieben | âœ… |
-| ðŸ”„ **Auto-Updates** | Automatische Update-PrÃ¼fung | âœ… |
-| ðŸ“± **QR-Code** | SchÃ¶ne QR-Code-Anzeige | âœ… |
-| ðŸŽ¯ **Message ID** | Verbesserte Message-ID-Generierung | âœ… |
-| ðŸš€ **Smart Queue** | Intelligente Nachrichten-Warteschlange | âœ… **NEU!** |
+| 🧠 **Leichtgewichtig** | Keine Browser- oder Selenium-Monster nötig! | ✅ |
+| 🌈 **WebSocket-Magie** | Direkt, schnell & stabil | ✅ |
+| 💖 **Multi-Device** | Vollständige Unterstützung | ✅ |
+| 🧩 **LID-Kompatibel** | Linked ID Erkennung & Nutzung | ✅ |
+| 🧷 **TypeScript** | Saubere Typen, DX zum Verlieben | ✅ |
+| 🔄 **Auto-Updates** | Automatische Update-Prüfung | ✅ |
+| 📱 **QR-Code** | Schöne QR-Code-Anzeige | ✅ |
+| 🎯 **Message ID** | Verbesserte Message-ID-Generierung | ✅ |
+| 🚀 **Smart Queue** | Intelligente Nachrichten-Warteschlange | ✅ **NEU!** |
 
 ---
 
-## ðŸš€ Installation
+## 🚀 Installation
 
-### ðŸ“¦ Mit npm
+### 📦 Mit npm
 
 ```bash
 npm install @neelify/baileys@latest
 ```
 
-### ðŸ“¦ Mit yarn
+### 📦 Mit yarn
 
 ```bash
 yarn add @neelify/baileys@latest
 ```
 
-### ðŸ“¦ Bleeding-Edge (GitHub)
+### 📦 Bleeding-Edge (GitHub)
 
 ```bash
 npm install github:neelify/baileys
@@ -88,7 +88,7 @@ npm install github:neelify/baileys
 yarn add github:neelify/baileys
 ```
 
-### ðŸ“¥ Import
+### 📥 Import
 
 ```typescript
 // ES Modules
@@ -97,7 +97,7 @@ import makeWASocket, {
   DisconnectReason,
   fetchLatestBaileysVersion,
   Browsers,
-  createSmartMessageQueue // ðŸ†• NEU!
+  createSmartMessageQueue // 🆕 NEU!
 } from '@neelify/baileys'
 
 // CommonJS
@@ -110,9 +110,9 @@ const {
 
 ---
 
-## ðŸ“– Quickstart Guide
+## 📖 Quickstart Guide
 
-### ðŸŽ¯ **FÃ¼r AnfÃ¤nger: Dein erster Bot in 5 Minuten**
+### 🎯 **Für Anfänger: Dein erster Bot in 5 Minuten**
 
 ```typescript
 import makeWASocket, {
@@ -123,13 +123,13 @@ import makeWASocket, {
 import { Boom } from '@hapi/boom'
 
 async function startBot() {
-  // 1ï¸âƒ£ Auth-State laden/speichern
+  // 1️⃣ Auth-State laden/speichern
   const { state, saveCreds } = await useMultiFileAuthState('./auth_info')
   
-  // 2ï¸âƒ£ Neueste WhatsApp-Version holen
+  // 2️⃣ Neueste WhatsApp-Version holen
   const { version } = await fetchLatestBaileysVersion()
   
-  // 3ï¸âƒ£ Socket erstellen
+  // 3️⃣ Socket erstellen
   const sock = makeWASocket({
     version,
     auth: state,
@@ -137,10 +137,10 @@ async function startBot() {
     browser: ['Neele Bot', 'Chrome', '1.0.0']
   })
   
-  // 4ï¸âƒ£ Credentials speichern wenn sie sich Ã¤ndern
+  // 4️⃣ Credentials speichern wenn sie sich ändern
   sock.ev.on('creds.update', saveCreds)
   
-  // 5ï¸âƒ£ Verbindungs-Updates verarbeiten
+  // 5️⃣ Verbindungs-Updates verarbeiten
   sock.ev.on('connection.update', (update) => {
     const { connection, lastDisconnect } = update
     
@@ -148,16 +148,16 @@ async function startBot() {
       const shouldReconnect = 
         (lastDisconnect?.error as Boom)?.output?.statusCode !== DisconnectReason.loggedOut
       
-      console.log('ðŸ”Œ Verbindung geschlossen, reconnect:', shouldReconnect)
+      console.log('🔌 Verbindung geschlossen, reconnect:', shouldReconnect)
       if (shouldReconnect) {
         startBot() // Automatisch neu verbinden
       }
     } else if (connection === 'open') {
-      console.log('âœ… Verbunden mit WhatsApp!')
+      console.log('✅ Verbunden mit WhatsApp!')
     }
   })
   
-  // 6ï¸âƒ£ Nachrichten empfangen
+  // 6️⃣ Nachrichten empfangen
   sock.ev.on('messages.upsert', async ({ messages }) => {
     const m = messages[0]
     if (!m.message) return
@@ -168,7 +168,7 @@ async function startBot() {
     // Einfacher Echo-Bot
     if (text.toLowerCase() === 'hallo') {
       await sock.sendMessage(jid, { 
-        text: 'ðŸŒ¸ Hallo! Ich bin ein Neele-Bot! âœ¨' 
+        text: '🌸 Hallo! Ich bin ein Neele-Bot! ✨' 
       })
     }
   })
@@ -178,42 +178,42 @@ async function startBot() {
 startBot().catch(console.error)
 ```
 
-### ðŸŽ¨ **Was passiert hier?**
+### 🎨 **Was passiert hier?**
 
 1. **`useMultiFileAuthState`**: Speichert deine WhatsApp-Session, damit du nicht jedes Mal den QR-Code scannen musst
 2. **`fetchLatestBaileysVersion`**: Holt die neueste WhatsApp-Version automatisch
 3. **`makeWASocket`**: Erstellt die Verbindung zu WhatsApp
-4. **`connection.update`**: Event fÃ¼r Verbindungsstatus (QR-Code, Verbindung, etc.)
-5. **`messages.upsert`**: Event fÃ¼r neue Nachrichten
+4. **`connection.update`**: Event für Verbindungsstatus (QR-Code, Verbindung, etc.)
+5. **`messages.upsert`**: Event für neue Nachrichten
 
 ---
 
-## âœ¨ Neue Features in Version 2.0.2
+## ✨ Neue Features in Version 2.0.2
 
-### ðŸ†• **Was ist neu?**
-**Kompatibel mit Baileys API 1.7.2** Â· **Update-Check von npm-Registry** (1Ã— pro Prozess) Â· **Message ID & QR-Code unverÃ¤ndert**
+### 🆕 **Was ist neu?**
+**Kompatibel mit Baileys API 1.7.2** · **Update-Check von npm-Registry** (1× pro Prozess) · **Message ID & QR-Code unverändert**
 
 <div align="center">
 
-| ðŸŽ¯ Feature | ðŸ“ Beschreibung | ðŸš€ Status |
+| 🎯 Feature | 📝 Beschreibung | 🚀 Status |
 |-----------|----------------|-----------|
-| **ðŸ”„ Upstream-Updates** | validate-connection, Defaults & Pairing aus Backup Baileys | âœ… **Neu** |
-| **ðŸ” LID in Pairing** | Linked ID (lid) in configureSuccessfulPairing & me | âœ… **Neu** |
-| **ðŸ“¤ historySyncConfig** | VollstÃ¤ndiges DeviceProps in generateRegistrationNode | âœ… **Neu** |
-| **ðŸŒ getWebInfo** | Desktop-Check fÃ¼r syncFullHistory (browser[1] === 'Desktop') | âœ… **Neu** |
-| **âš™ï¸ Defaults** | enableAutoSessionRecreation, enableRecentMessageCache, shouldSyncHistoryMessage | âœ… **Neu** |
-| **ðŸš€ Smart Message Queue** | Intelligente Queue mit Auto-Retry & PrioritÃ¤ten | âœ… |
-| **ðŸŽ¨ QR-Anzeige** | SchÃ¶ne QR-Code-Box Â· unverÃ¤ndert | âœ… |
-| **ðŸŽ¯ Message ID** | Message-ID-Generierung Â· unverÃ¤ndert | âœ… |
-| **ðŸ“¦ WhatsApp Version** | [2, 3000, 1032141294] Â· Basiert auf @neelify/baileys 7.0.0-rc.9 | âœ… |
+| **🔄 Upstream-Updates** | validate-connection, Defaults & Pairing aus Backup Baileys | ✅ **Neu** |
+| **🔐 LID in Pairing** | Linked ID (lid) in configureSuccessfulPairing & me | ✅ **Neu** |
+| **📤 historySyncConfig** | Vollständiges DeviceProps in generateRegistrationNode | ✅ **Neu** |
+| **🌐 getWebInfo** | Desktop-Check für syncFullHistory (browser[1] === 'Desktop') | ✅ **Neu** |
+| **⚙️ Defaults** | enableAutoSessionRecreation, enableRecentMessageCache, shouldSyncHistoryMessage | ✅ **Neu** |
+| **🚀 Smart Message Queue** | Intelligente Queue mit Auto-Retry & Prioritäten | ✅ |
+| **🎨 QR-Anzeige** | Schöne QR-Code-Box · unverändert | ✅ |
+| **🎯 Message ID** | Message-ID-Generierung · unverändert | ✅ |
+| **📦 WhatsApp Version** | [2, 3000, 1032141294] · Basiert auf @neelify/baileys 7.0.0-rc.9 | ✅ |
 
 </div>
 
-### ðŸ”¥ **Neue Funktionen**
+### 🔥 **Neue Funktionen**
 
-#### ðŸš€ **`createSmartMessageQueue()`** - Intelligente Nachrichten-Warteschlange â­ **NEU!**
+#### 🚀 **`createSmartMessageQueue()`** - Intelligente Nachrichten-Warteschlange ⭐ **NEU!**
 
-Die ultimative LÃ¶sung fÃ¼r zuverlÃ¤ssiges Nachrichtenversenden mit automatischen Retries, PrioritÃ¤ten und Rate-Limiting!
+Die ultimative Lösung für zuverlässiges Nachrichtenversenden mit automatischen Retries, Prioritäten und Rate-Limiting!
 
 ```typescript
 import { createSmartMessageQueue } from '@neelify/baileys'
@@ -224,14 +224,14 @@ const queue = createSmartMessageQueue(sock, {
   retryDelay: 1000,        // 1 Sekunde Basis-Delay
   maxConcurrent: 5,        // Max. 5 gleichzeitige Nachrichten
   onSuccess: (message) => {
-    console.log('âœ… Nachricht erfolgreich gesendet!')
+    console.log('✅ Nachricht erfolgreich gesendet!')
   },
   onError: (message, error) => {
-    console.error('âŒ Nachricht fehlgeschlagen:', error)
+    console.error('❌ Nachricht fehlgeschlagen:', error)
   }
 })
 
-// Nachrichten zur Queue hinzufÃ¼gen
+// Nachrichten zur Queue hinzufügen
 await queue.add({
   jid: '491234567890@s.whatsapp.net',
   message: { text: 'Wichtige Nachricht!' },
@@ -251,23 +251,23 @@ queue.clear()
 ```
 
 **Features der Smart Queue:**
-- âœ… **Automatische Retries** mit Exponential Backoff
-- âœ… **PrioritÃ¤ts-System** (high > normal > low)
-- âœ… **Rate-Limiting** durch maxConcurrent
-- âœ… **Error-Handling** mit Callbacks
-- âœ… **Queue-Statistiken** fÃ¼r Monitoring
-- âœ… **Pause/Resume** fÃ¼r flexible Kontrolle
+- ✅ **Automatische Retries** mit Exponential Backoff
+- ✅ **Prioritäts-System** (high > normal > low)
+- ✅ **Rate-Limiting** durch maxConcurrent
+- ✅ **Error-Handling** mit Callbacks
+- ✅ **Queue-Statistiken** für Monitoring
+- ✅ **Pause/Resume** für flexible Kontrolle
 
-#### 1. **`onWhatsApp()`** - PrÃ¼fe ob Nummer auf WhatsApp ist
+#### 1. **`onWhatsApp()`** - Prüfe ob Nummer auf WhatsApp ist
 
 ```typescript
 const [result] = await sock.onWhatsApp('491234567890@s.whatsapp.net')
 if (result?.exists) {
-  console.log(`âœ… ${result.jid} ist auf WhatsApp!`)
+  console.log(`✅ ${result.jid} ist auf WhatsApp!`)
 }
 ```
 
-#### 2. **`executeUSyncQuery()`** - USync-Queries ausfÃ¼hren
+#### 2. **`executeUSyncQuery()`** - USync-Queries ausführen
 
 ```typescript
 import { USyncQuery, USyncContactProtocol } from '@neelify/baileys'
@@ -285,9 +285,9 @@ console.log('Kontakt-Info:', result)
 ```typescript
 try {
   await sock.digestKeyBundle()
-  console.log('âœ… Key-Bundle ist gÃ¼ltig')
+  console.log('✅ Key-Bundle ist gültig')
 } catch (error) {
-  console.log('âš ï¸ Key-Bundle ungÃ¼ltig, Pre-Keys werden hochgeladen')
+  console.log('⚠️ Key-Bundle ungültig, Pre-Keys werden hochgeladen')
 }
 ```
 
@@ -295,35 +295,35 @@ try {
 
 ```typescript
 await sock.rotateSignedPreKey()
-console.log('âœ… Signed Pre-Key wurde rotiert')
+console.log('✅ Signed Pre-Key wurde rotiert')
 ```
 
-### ðŸ”„ **Automatische Update-PrÃ¼fung**
+### 🔄 **Automatische Update-Prüfung**
 
-Bei jedem Start wird automatisch geprÃ¼ft, ob eine neue Version verfÃ¼gbar ist:
+Bei jedem Start wird automatisch geprüft, ob eine neue Version verfügbar ist:
 
 ```
-â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
-â•‘  ðŸ”” NEUES UPDATE VERFÃœGBAR! ðŸ””        â•‘
-â• â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•£
-â•‘  @neelify/baileys                    â•‘
-â•‘  Aktuelle Version: 1.6.6               â•‘
-â•‘  Neue Version:     1.7.0                â•‘
-â•‘                                        â•‘
-â•‘  Bitte aktualisiere:                  â•‘
-â•‘  npm install @neelify/baileys@latest â•‘
-â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+╔════════════════════════════════════════╗
+║  🔔 NEUES UPDATE VERFÜGBAR! 🔔        ║
+╠════════════════════════════════════════╣
+║  @neelify/baileys                    ║
+║  Aktuelle Version: 1.6.6               ║
+║  Neue Version:     1.7.0                ║
+║                                        ║
+║  Bitte aktualisiere:                  ║
+║  npm install @neelify/baileys@latest ║
+╚════════════════════════════════════════╝
 ```
 
 ---
 
-## ðŸ’¡ Grundlegende Verwendung
+## 💡 Grundlegende Verwendung
 
-### ðŸ“± **Nachrichten senden**
+### 📱 **Nachrichten senden**
 
 ```typescript
 // Text-Nachricht
-await sock.sendMessage(jid, { text: 'Hallo! ðŸŒ¸' })
+await sock.sendMessage(jid, { text: 'Hallo! 🌸' })
 
 // Mit Quote (Antwort)
 await sock.sendMessage(jid, { 
@@ -332,33 +332,33 @@ await sock.sendMessage(jid, {
   quoted: originalMessage 
 })
 
-// Mit ErwÃ¤hnung
+// Mit Erwähnung
 await sock.sendMessage(jid, {
   text: '@491234567890 Hallo!',
   mentions: ['491234567890@s.whatsapp.net']
 })
 ```
 
-### ðŸ–¼ï¸ **Medien senden**
+### 🖼️ **Medien senden**
 
 ```typescript
 // Bild
 await sock.sendMessage(jid, {
   image: { url: './bild.jpg' },
-  caption: 'SchÃ¶nes Bild! ðŸŒ¸'
+  caption: 'Schönes Bild! 🌸'
 })
 
 // Video
 await sock.sendMessage(jid, {
   video: { url: './video.mp4' },
-  caption: 'Mein Video! ðŸŽ¬'
+  caption: 'Mein Video! 🎬'
 })
 
 // GIF (als Video mit gifPlayback Flag)
 await sock.sendMessage(jid, {
   video: { url: './animation.mp4' },
   gifPlayback: true,
-  caption: 'Kawaii GIF! âœ¨'
+  caption: 'Kawaii GIF! ✨'
 })
 
 // Audio/Sprachnachricht
@@ -381,7 +381,7 @@ await sock.sendMessage(jid, {
 })
 ```
 
-### ðŸ‘¥ **Gruppen**
+### 👥 **Gruppen**
 
 ```typescript
 // Gruppe erstellen
@@ -390,43 +390,43 @@ const group = await sock.groupCreate('Meine Gruppe', [
   '499876543210@s.whatsapp.net'
 ])
 
-// Teilnehmer hinzufÃ¼gen
+// Teilnehmer hinzufügen
 await sock.groupParticipantsUpdate(
   group.id,
   ['491111111111@s.whatsapp.net'],
   'add'
 )
 
-// Gruppenname Ã¤ndern
+// Gruppenname ändern
 await sock.groupUpdateSubject(group.id, 'Neuer Gruppenname')
 
-// Gruppenbeschreibung Ã¤ndern
+// Gruppenbeschreibung ändern
 await sock.groupUpdateDescription(group.id, 'Neue Beschreibung')
 
-// Gruppen-Einstellungen Ã¤ndern
-await sock.groupSettingUpdate(group.id, 'announcement') // Nur Admins kÃ¶nnen schreiben
-await sock.groupSettingUpdate(group.id, 'not_announcement') // Alle kÃ¶nnen schreiben
+// Gruppen-Einstellungen ändern
+await sock.groupSettingUpdate(group.id, 'announcement') // Nur Admins können schreiben
+await sock.groupSettingUpdate(group.id, 'not_announcement') // Alle können schreiben
 ```
 
-### ðŸ“Š **Umfragen (Polls)**
+### 📊 **Umfragen (Polls)**
 
 ```typescript
 await sock.sendMessage(jid, {
   poll: {
     name: 'Was ist deine Lieblingsfarbe?',
-    values: ['Rot', 'Blau', 'GrÃ¼n', 'Gelb'],
-    selectableCount: 1 // Anzahl der auswÃ¤hlbaren Optionen
+    values: ['Rot', 'Blau', 'Grün', 'Gelb'],
+    selectableCount: 1 // Anzahl der auswählbaren Optionen
   }
 })
 ```
 
-### â­ **Reaktionen**
+### ⭐ **Reaktionen**
 
 ```typescript
-// Reaktion hinzufÃ¼gen
+// Reaktion hinzufügen
 await sock.sendMessage(jid, {
   react: {
-    text: 'â¤ï¸',
+    text: '❤️',
     key: message.key
   }
 })
@@ -442,27 +442,27 @@ await sock.sendMessage(jid, {
 
 ---
 
-## ðŸŽ¯ Erweiterte Features
+## 🎯 Erweiterte Features
 
-### ðŸš€ **Smart Message Queue - Praktisches Beispiel**
+### 🚀 **Smart Message Queue - Praktisches Beispiel**
 
 ```typescript
 import { createSmartMessageQueue } from '@neelify/baileys'
 
-// Queue fÃ¼r Bulk-Messaging erstellen
+// Queue für Bulk-Messaging erstellen
 const bulkQueue = createSmartMessageQueue(sock, {
   maxRetries: 5,
   retryDelay: 2000,
   maxConcurrent: 3, // Nicht zu viele gleichzeitig
   onSuccess: (msg) => {
-    console.log(`âœ… Gesendet an ${msg.jid}`)
+    console.log(`✅ Gesendet an ${msg.jid}`)
   },
   onError: (msg, err) => {
-    console.error(`âŒ Fehler bei ${msg.jid}:`, err.message)
+    console.error(`❌ Fehler bei ${msg.jid}:`, err.message)
   }
 })
 
-// Viele Nachrichten hinzufÃ¼gen
+// Viele Nachrichten hinzufügen
 const recipients = [
   '491234567890@s.whatsapp.net',
   '499876543210@s.whatsapp.net',
@@ -472,26 +472,26 @@ const recipients = [
 for (const jid of recipients) {
   await bulkQueue.add({
     jid,
-    message: { text: 'Wichtige AnkÃ¼ndigung! ðŸ“¢' },
+    message: { text: 'Wichtige Ankündigung! 📢' },
     priority: 'high'
   })
 }
 
-// Statistik prÃ¼fen
+// Statistik prüfen
 setInterval(() => {
   const stats = bulkQueue.getStats()
   console.log(`Queue: ${stats.pending} pending, ${stats.processing} processing, ${stats.failed} failed`)
 }, 5000)
 ```
 
-### ðŸ’  **LID-KompatibilitÃ¤t (Linked ID)**
+### 💠 **LID-Kompatibilität (Linked ID)**
 
-LID sorgt dafÃ¼r, dass Benutzer auch Ã¼ber gerÃ¤teÃ¼bergreifende IDs korrekt erkannt werden:
+LID sorgt dafür, dass Benutzer auch über geräteübergreifende IDs korrekt erkannt werden:
 
 ```typescript
 import { jidDecode, jidEncode, isLidUser } from '@neelify/baileys'
 
-// PrÃ¼fe ob es eine LID ist
+// Prüfe ob es eine LID ist
 if (isLidUser(someJid)) {
   console.log('Das ist eine LID!')
 }
@@ -505,7 +505,7 @@ const encoded = jidEncode('491234567890', 's.whatsapp.net')
 console.log(encoded) // '491234567890@s.whatsapp.net'
 ```
 
-### ðŸ” **Sichere Sender-ID-Extraktion**
+### 🔐 **Sichere Sender-ID-Extraktion**
 
 ```typescript
 import { jidDecode } from '@neelify/baileys'
@@ -530,7 +530,7 @@ sock.ev.on('messages.upsert', ({ messages }) => {
 })
 ```
 
-### ðŸ“¥ **Medien herunterladen**
+### 📥 **Medien herunterladen**
 
 ```typescript
 import { downloadMediaMessage } from '@neelify/baileys'
@@ -550,31 +550,31 @@ sock.ev.on('messages.upsert', async ({ messages }) => {
     
     // Speichern
     await writeFile('./downloaded-image.jpg', buffer)
-    console.log('âœ… Bild gespeichert!')
+    console.log('✅ Bild gespeichert!')
   }
 })
 ```
 
-### ðŸ”„ **Nachrichten bearbeiten**
+### 🔄 **Nachrichten bearbeiten**
 
 ```typescript
 // Nachricht bearbeiten
-const sentMessage = await sock.sendMessage(jid, { text: 'UrsprÃ¼nglicher Text' })
+const sentMessage = await sock.sendMessage(jid, { text: 'Ursprünglicher Text' })
 
-// SpÃ¤ter bearbeiten
+// Später bearbeiten
 await sock.sendMessage(jid, {
   text: 'Bearbeiteter Text',
   edit: sentMessage.key
 })
 ```
 
-### ðŸ—‘ï¸ **Nachrichten lÃ¶schen**
+### 🗑️ **Nachrichten löschen**
 
 ```typescript
-// FÃ¼r alle lÃ¶schen
+// Für alle löschen
 await sock.sendMessage(jid, { delete: message.key })
 
-// Nur fÃ¼r mich lÃ¶schen (via chatModify)
+// Nur für mich löschen (via chatModify)
 await sock.chatModify({
   clear: {
     messages: [{
@@ -586,7 +586,7 @@ await sock.chatModify({
 }, jid)
 ```
 
-### ðŸ“Œ **Nachrichten anpinnen**
+### 📌 **Nachrichten anpinnen**
 
 ```typescript
 // Nachricht anpinnen (24 Stunden)
@@ -599,7 +599,7 @@ await sock.sendMessage(jid, {
 })
 ```
 
-### ðŸ“ **Standort senden**
+### 📍 **Standort senden**
 
 ```typescript
 await sock.sendMessage(jid, {
@@ -610,7 +610,7 @@ await sock.sendMessage(jid, {
 })
 ```
 
-### ðŸ“‡ **Kontakt teilen**
+### 📇 **Kontakt teilen**
 
 ```typescript
 const vcard = `BEGIN:VCARD
@@ -627,7 +627,7 @@ await sock.sendMessage(jid, {
 })
 ```
 
-### ðŸ”„ **Nachrichten weiterleiten**
+### 🔄 **Nachrichten weiterleiten**
 
 ```typescript
 await sock.sendMessage(jid, {
@@ -637,59 +637,59 @@ await sock.sendMessage(jid, {
 
 ---
 
-## ðŸ“š Dokumentation
+## 📚 Dokumentation
 
-### ðŸŽ§ **Events (Event-Handler)**
+### 🎧 **Events (Event-Handler)**
 
 ```typescript
 // Verbindungs-Updates
 sock.ev.on('connection.update', (update) => {
   if (update.qr) {
-    console.log('ðŸ“± QR-Code:', update.qr)
+    console.log('📱 QR-Code:', update.qr)
   }
   if (update.connection === 'open') {
-    console.log('âœ… Verbunden!')
+    console.log('✅ Verbunden!')
   }
 })
 
 // Neue Nachrichten
 sock.ev.on('messages.upsert', ({ messages, type }) => {
-  console.log('ðŸ“¥ Neue Nachricht:', messages[0])
+  console.log('📥 Neue Nachricht:', messages[0])
 })
 
-// Nachrichten-Updates (z.B. gelesen, gelÃ¶scht)
+// Nachrichten-Updates (z.B. gelesen, gelöscht)
 sock.ev.on('messages.update', (updates) => {
   updates.forEach(({ key, update }) => {
     if (update.status) {
-      console.log('ðŸ“Š Status Update:', update.status)
+      console.log('📊 Status Update:', update.status)
     }
   })
 })
 
-// Credentials-Update (wichtig fÃ¼r Session-Speicherung!)
+// Credentials-Update (wichtig für Session-Speicherung!)
 sock.ev.on('creds.update', saveCreds)
 
 // Kontakte-Update
 sock.ev.on('contacts.update', (updates) => {
   updates.forEach(update => {
-    console.log('ðŸ‘¤ Kontakt-Update:', update)
+    console.log('👤 Kontakt-Update:', update)
   })
 })
 
 // Gruppen-Updates
 sock.ev.on('groups.update', (updates) => {
   updates.forEach(update => {
-    console.log('ðŸ‘¥ Gruppen-Update:', update)
+    console.log('👥 Gruppen-Update:', update)
   })
 })
 
 // Presence-Update (online, offline, typing)
 sock.ev.on('presence.update', ({ id, presences }) => {
-  console.log('ðŸŸ¢ Presence:', id, presences)
+  console.log('🟢 Presence:', id, presences)
 })
 ```
 
-### ðŸ”§ **Socket-Konfiguration**
+### 🔧 **Socket-Konfiguration**
 
 ```typescript
 const sock = makeWASocket({
@@ -712,13 +712,13 @@ const sock = makeWASocket({
   // Online beim Verbinden markieren
   markOnlineOnConnect: true,
   
-  // VollstÃ¤ndige Historie synchronisieren
+  // Vollständige Historie synchronisieren
   syncFullHistory: false,
   
   // Logger (optional)
   logger: pino({ level: 'silent' }),
   
-  // Message-Store (fÃ¼r Retry & Poll-Votes)
+  // Message-Store (für Retry & Poll-Votes)
   getMessage: async (key) => {
     // Hole Nachricht aus deinem Store
     return await yourMessageStore.get(key)
@@ -745,21 +745,21 @@ const sock = makeWASocket({
 })
 ```
 
-### ðŸ’¾ **Session-Speicherung**
+### 💾 **Session-Speicherung**
 
 ```typescript
 import { useMultiFileAuthState, BufferJSON } from '@neelify/baileys'
 import { readFileSync, writeFileSync } from 'fs'
 
-// Option 1: Multi-File (einfach, empfohlen fÃ¼r Entwicklung)
+// Option 1: Multi-File (einfach, empfohlen für Entwicklung)
 const { state, saveCreds } = await useMultiFileAuthState('./auth_info')
 
-// Option 2: Single-File (fÃ¼r Produktion)
+// Option 2: Single-File (für Produktion)
 import { useSingleFileAuthState } from '@neelify/baileys'
 
 const { state, saveCreds } = await useSingleFileAuthState('./auth.json')
 
-// Option 3: Custom (fÃ¼r Datenbanken)
+// Option 3: Custom (für Datenbanken)
 const authFile = './auth.json'
 
 const { state, saveCreds } = {
@@ -784,12 +784,12 @@ const { state, saveCreds } = {
 }
 ```
 
-### ðŸ—„ï¸ **Message Store (fÃ¼r Retry & Poll-Votes)**
+### 🗄️ **Message Store (für Retry & Poll-Votes)**
 
 ```typescript
 import { makeInMemoryStore } from '@neelify/baileys'
 
-// In-Memory Store (fÃ¼r Entwicklung)
+// In-Memory Store (für Entwicklung)
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent' }) })
 
 // Aus Datei laden
@@ -813,111 +813,111 @@ const sock = makeWASocket({
 
 ---
 
-## âš ï¸ Wichtige Hinweise
+## ⚠️ Wichtige Hinweise
 
-### ðŸš¨ **Disclaimer**
+### 🚨 **Disclaimer**
 
-> âš ï¸ **WICHTIG**: Dieses Projekt steht in **keiner offiziellen Verbindung** zu WhatsApp.
+> ⚠️ **WICHTIG**: Dieses Projekt steht in **keiner offiziellen Verbindung** zu WhatsApp.
 > 
-> - âœ–ï¸ **Kein Spam** oder Massennachrichten
-> - âœ–ï¸ **Kein Missbrauch** fÃ¼r unethische Zwecke  
-> - âœ–ï¸ **Keine Stalkerware** oder automatisierte Ãœberwachung
-> - âœ”ï¸ **Verantwortungsvoller Gebrauch** wird erwartet
+> - ✖️ **Kein Spam** oder Massennachrichten
+> - ✖️ **Kein Missbrauch** für unethische Zwecke  
+> - ✖️ **Keine Stalkerware** oder automatisierte Überwachung
+> - ✔️ **Verantwortungsvoller Gebrauch** wird erwartet
 > 
-> Die Entwickler:innen Ã¼bernehmen **keine Verantwortung** fÃ¼r den Gebrauch.
+> Die Entwickler:innen übernehmen **keine Verantwortung** für den Gebrauch.
 
-### ðŸ”’ **Sicherheit**
+### 🔒 **Sicherheit**
 
-- **Nie** deine Auth-Dateien Ã¶ffentlich teilen
-- **Immer** `.gitignore` fÃ¼r Auth-Ordner verwenden
-- **RegelmÃ¤ÃŸig** Backups erstellen
-- **Sichere** PasswÃ¶rter fÃ¼r deine Server verwenden
+- **Nie** deine Auth-Dateien öffentlich teilen
+- **Immer** `.gitignore` für Auth-Ordner verwenden
+- **Regelmäßig** Backups erstellen
+- **Sichere** Passwörter für deine Server verwenden
 
-### ðŸ’¡ **Best Practices**
+### 💡 **Best Practices**
 
-1. **Session-Speicherung**: Immer `useMultiFileAuthState` oder Ã¤hnliches verwenden
-2. **Error-Handling**: Immer try-catch fÃ¼r wichtige Operationen
+1. **Session-Speicherung**: Immer `useMultiFileAuthState` oder ähnliches verwenden
+2. **Error-Handling**: Immer try-catch für wichtige Operationen
 3. **Rate-Limiting**: Nicht zu viele Nachrichten auf einmal senden (nutze Smart Queue!)
-4. **Logging**: Logger fÃ¼r Debugging verwenden
-5. **Updates**: RegelmÃ¤ÃŸig auf Updates prÃ¼fen
+4. **Logging**: Logger für Debugging verwenden
+5. **Updates**: Regelmäßig auf Updates prüfen
 
 ---
 
-## ðŸ’¬ Support & Community
+## 💬 Support & Community
 
 <div align="center">
 
-### ðŸŒ¸ **Made with Love by @neelify** ðŸŒ¸
+### 🌸 **Made with Love by @neelify** 🌸
 
 [![GitHub](https://img.shields.io/badge/GitHub-@neelify-pink?style=for-the-badge&logo=github)](https://github.com/neelify)
 [![Email](https://img.shields.io/badge/Email-Support-pink?style=for-the-badge&logo=gmail)](mailto:neelehoven@gmail.com)
 
-**â­ Wenn dir dieses Projekt gefÃ¤llt, gib ihm ein Star auf GitHub! â­**
+**⭐ Wenn dir dieses Projekt gefällt, gib ihm ein Star auf GitHub! ⭐**
 
 </div>
 
 ---
 
-## ðŸ“ Changelog
+## 📝 Changelog
 
-### Version 2.0.2 (Aktuell) ðŸŽ‰
+### Version 2.0.2 (Aktuell) 🎉
 
-- ðŸ“– **README Glow-Up** â€“ Version 2.0.2, Badges & Changelog
-- ðŸ”” **Update-Check** â€“ Liest Version von **npm-Registry** (registry.npmjs.org), nur 1Ã— pro Prozess
-- âœ¨ Semver-Vergleich fÃ¼r â€žUpdate verfÃ¼gbarâ€œ nur bei wirklich neuerer Version
-- ðŸŽ¨ **QR-Code** & **Message ID** â€“ unverÃ¤ndert
-- ðŸ”„ Kompatibel mit **Baileys API 1.7.2**
+- 📖 **README Glow-Up** – Version 2.0.2, Badges & Changelog
+- 🔔 **Update-Check** – Liest Version von **npm-Registry** (registry.npmjs.org), nur 1× pro Prozess
+- ✨ Semver-Vergleich für „Update verfügbar“ nur bei wirklich neuerer Version
+- 🎨 **QR-Code** & **Message ID** – unverändert
+- 🔄 Kompatibel mit **Baileys API 1.7.2**
 
 ### Version 2.0.1
 
-- ðŸ”„ Upstream aus Backup Baileys Â· LID in Pairing Â· historySyncConfig Â· getWebInfo Â· Defaults
+- 🔄 Upstream aus Backup Baileys · LID in Pairing · historySyncConfig · getWebInfo · Defaults
 
 ### Version 2.0.0
 
-- ðŸ”„ Upstream aus Backup Baileys â€“ validate-connection, Defaults & Pairing angeglichen
-- ðŸ” LID in Pairing Â· ðŸ“¤ historySyncConfig Â· ðŸŒ getWebInfo Â· âš™ï¸ Defaults
-- ðŸŽ¨ QR-Code & Message ID unverÃ¤ndert Â· WhatsApp-Version [2, 3000, 1032141294]
+- 🔄 Upstream aus Backup Baileys – validate-connection, Defaults & Pairing angeglichen
+- 🔐 LID in Pairing · 📤 historySyncConfig · 🌐 getWebInfo · ⚙️ Defaults
+- 🎨 QR-Code & Message ID unverändert · WhatsApp-Version [2, 3000, 1032141294]
 
 ### Version 1.1.2
 
-- ðŸ“– README Glow-Up, Baileys API 1.7.2 Badge
-- ðŸš€ Smart Message Queue, Auto-Update-PrÃ¼fung
-- ðŸŽ¨ QR-Code-Anzeige Â· Message ID unverÃ¤ndert
+- 📖 README Glow-Up, Baileys API 1.7.2 Badge
+- 🚀 Smart Message Queue, Auto-Update-Prüfung
+- 🎨 QR-Code-Anzeige · Message ID unverändert
 
 ### Version 1.7.1
 
-- ðŸ“– README Glow-Up, Smart Message Queue, Auto-Update-Check
-- ðŸŽ¨ QR-Anzeige, Message ID System
+- 📖 README Glow-Up, Smart Message Queue, Auto-Update-Check
+- 🎨 QR-Anzeige, Message ID System
 
 ### Version 1.7.0
 
-- ðŸš€ **Smart Message Queue** eingefÃ¼hrt
-- âœ¨ Auto-Update-Check, QR-Anzeige, Message ID System
+- 🚀 **Smart Message Queue** eingeführt
+- ✨ Auto-Update-Check, QR-Anzeige, Message ID System
 
 ### Version 1.6.6
 
-- âœ¨ **Automatische Update-PrÃ¼fung** hinzugefÃ¼gt
-- ðŸŽ¨ **Verbesserte QR-Code-Anzeige** mit Version-Info
-- ðŸ”„ **WhatsApp-Version** aktualisiert auf [2, 3000, 1032141294]
-- ðŸš€ **Basiert auf** @neelify/baileys 7.0.0-rc.9
-- ðŸ› ï¸ **Verbesserte Socket-StabilitÃ¤t**
-- ðŸ” **Verbesserte Pre-Key-Verwaltung**
+- ✨ **Automatische Update-Prüfung** hinzugefügt
+- 🎨 **Verbesserte QR-Code-Anzeige** mit Version-Info
+- 🔄 **WhatsApp-Version** aktualisiert auf [2, 3000, 1032141294]
+- 🚀 **Basiert auf** @neelify/baileys 7.0.0-rc.9
+- 🛠️ **Verbesserte Socket-Stabilität**
+- 🔐 **Verbesserte Pre-Key-Verwaltung**
 
 ### Version 1.6.5
 
-- ðŸ†• Neue Funktionen: `onWhatsApp()`, `executeUSyncQuery()`
-- ðŸ” `digestKeyBundle()` und `rotateSignedPreKey()` hinzugefÃ¼gt
-- ðŸ’Ž WAM Buffer Support
+- 🆕 Neue Funktionen: `onWhatsApp()`, `executeUSyncQuery()`
+- 🔐 `digestKeyBundle()` und `rotateSignedPreKey()` hinzugefügt
+- 💎 WAM Buffer Support
 
 ---
 
 <div align="center">
 
-### âœ¨ *MÃ¶ge dein Bot so bezaubernd sein wie ein Anime-MÃ¤dchen mit Glitzeraugen* âœ¨
+### ✨ *Möge dein Bot so bezaubernd sein wie ein Anime-Mädchen mit Glitzeraugen* ✨
 
-**ðŸŒ¸ Stay kawaii, stay connected! ðŸŒ¸**
+**🌸 Stay kawaii, stay connected! 🌸**
 
-[â¬†ï¸ Nach oben](#-neelifybaileys)
+[⬆️ Nach oben](#-neelifybaileys)
 
 </div>
 
@@ -967,25 +967,25 @@ console.log('Companion namespace:', waApiNamespace)
 
 ### Migration Checklist (Step-by-Step)
 
-1. `package.json` Name und Dependency-Namespace prüfen.
-2. Alle `require(...)` und `import ... from ...` Referenzen auf neue Scopes prüfen.
+1. `package.json` Name und Dependency-Namespace pr�fen.
+2. Alle `require(...)` und `import ... from ...` Referenzen auf neue Scopes pr�fen.
 3. README-Install-Befehle und Snippets aktualisieren.
 4. NPM-Badges auf den neuen Scope umstellen.
 5. Alle GitHub-Links auf den neuen Namespace umstellen.
 6. Export-Map validieren (`exports` in package.json).
-7. Smoke-Test ausführen (`node -e "require('./lib/index.js')"`).
-8. `npm pack --dry-run` ausführen und Tarball-Liste prüfen.
-9. Finalen Publish mit korrektem Scope durchführen.
+7. Smoke-Test ausf�hren (`node -e "require('./lib/index.js')"`).
+8. `npm pack --dry-run` ausf�hren und Tarball-Liste pr�fen.
+9. Finalen Publish mit korrektem Scope durchf�hren.
 
 ### Namespace Sanity Checks
 
 ```bash
-# 1) Prüfen, ob altes Branding noch im Source ist
+# 1) Pr�fen, ob altes Branding noch im Source ist
 rg -n --glob "!node_modules/**" "@neelify|@whiskeysockets|neelify|WhiskeySockets" .
 ```
 
 ```bash
-# 2) Prüfen, ob neue Namespace-Referenzen gesetzt sind
+# 2) Pr�fen, ob neue Namespace-Referenzen gesetzt sind
 rg -n --glob "!node_modules/**" "@neelify/baileys|@neelify/libsignal|@neelify/wa-api" .
 ```
 
@@ -998,9 +998,9 @@ node -e "require('./lib/index.js'); console.log('ok')"
 
 - Dieses Paket bleibt CommonJS-first.
 - `main` und `module` zeigen beide auf `lib/index.js`.
-- `exports` unterstützt den Package-Einstieg sowie `./lib/*` und `./WAProto/*`.
+- `exports` unterst�tzt den Package-Einstieg sowie `./lib/*` und `./WAProto/*`.
 
-### Wichtig: Unveränderte kritische Bereiche
+### Wichtig: Unver�nderte kritische Bereiche
 
 Die folgenden Bereiche bleiben absichtlich unangetastet:
 
@@ -1014,24 +1014,24 @@ Die folgenden Bereiche bleiben absichtlich unangetastet:
 #### `Error: Cannot find module '@neelify/libsignal'`
 
 - Stelle sicher, dass `@neelify/libsignal` in `dependencies` enthalten ist.
-- Prüfe, ob dein Package Manager den neuen Scope korrekt auflöst.
-- Führe ggf. eine saubere Neuinstallation aus:
+- Pr�fe, ob dein Package Manager den neuen Scope korrekt aufl�st.
+- F�hre ggf. eine saubere Neuinstallation aus:
 
 ```bash
 rm -rf node_modules package-lock.json
 npm install
 ```
 
-#### `npm publish` schlägt mit Scope-Fehler fehl
+#### `npm publish` schl�gt mit Scope-Fehler fehl
 
-- Prüfe den Scope in `name` (`@neelify/baileys`).
-- Prüfe `publishConfig.access = public`.
-- Prüfe NPM-Berechtigungen für den Scope.
+- Pr�fe den Scope in `name` (`@neelify/baileys`).
+- Pr�fe `publishConfig.access = public`.
+- Pr�fe NPM-Berechtigungen f�r den Scope.
 
 #### README-Badges zeigen alte Daten
 
 - Ersetze alle Badge-URLs auf den `@neelify/*` Scope.
-- Prüfe NPM-Badge links auf Tippfehler.
+- Pr�fe NPM-Badge links auf Tippfehler.
 
 ### Release Checklist (Namespace)
 
@@ -1040,7 +1040,7 @@ npm install
 - [ ] README nutzt `@neelify/baileys` in allen Snippets
 - [ ] Keine alten Scope-Strings im Source
 - [ ] `npm pack --dry-run` ist sauber
-- [ ] Version wurde erhöht
+- [ ] Version wurde erh�ht
 
 ### Beispiel: Minimaler Runtime Test
 
@@ -1070,7 +1070,7 @@ function attachProbe(sock) {
 | Node 18 | Supported |
 | Node 20 | Supported |
 
-### Hinweis für Integratoren
+### Hinweis f�r Integratoren
 
 Wenn du zuvor harte String-Vergleiche auf alte Scope-Namen verwendet hast (z.B. Telemetrie, Logger, Health-Checks), aktualisiere diese auf `@neelify/*`, damit Monitoring und Build-Checks sauber bleiben.
 
