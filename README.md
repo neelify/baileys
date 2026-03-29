@@ -18,7 +18,7 @@
   <img src="https://files.catbox.moe/phppor.JPG" width="720" alt="Neele Baileys Header" />
 </p>
 
-<p align="center"><sub>2026 Glow-Up Edition - polished docs - clean namespace</sub></p>
+<p align="center"><sub>2026 Glow-Up Edition - stable multi-session API - neelify namespace</sub></p>
 
 | 📦 Paket | 🎯 Baileys API | ✨ Highlights |
 |----------|----------------|----------------|
