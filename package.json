@@ -1,0 +1,135 @@
+{
+  "name": "@neelify/baileys",
+  "version": "2.2.1",
+  "description": "Conservative Neelify-maintained CommonJS WhatsApp Web client based on WhiskeySockets/Baileys with preserved QR, NEELE message IDs and device/LID handling.",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "neelify",
+    "js-whatsapp",
+    "whatsapp-api",
+    "whatsapp-web",
+    "whatsapp-chat",
+    "whatsapp-group",
+    "automation",
+    "multi-device"
+  ],
+  "homepage": "https://www.npmjs.com/package/@neelify/baileys",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neelify/baileys.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neelify/baileys/issues"
+  },
+  "license": "MIT",
+  "author": "Neele",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    },
+    "./lib": {
+      "types": "./lib/index.d.ts",
+      "require": "./lib/index.js",
+      "default": "./lib/index.js"
+    },
+    "./lib/*": {
+      "types": "./lib/*.d.ts",
+      "require": "./lib/*.js",
+      "default": "./lib/*.js"
+    },
+    "./WAProto": {
+      "types": "./WAProto/index.d.ts",
+      "require": "./WAProto/index.js",
+      "default": "./WAProto/index.js"
+    },
+    "./WAProto/*": {
+      "types": "./WAProto/*.d.ts",
+      "require": "./WAProto/*.js",
+      "default": "./WAProto/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/**/*",
+    "WAProto/**/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "smoke": "node -e \"require('./lib/index.js')\"",
+    "test": "node -e \"require('./lib/index.js')\""
+  },
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@cacheable/node-cache": "^1.5.4",
+    "@hapi/boom": "^9.1.3",
+    "@neelify/libsignal": "^1.0.14",
+    "async-mutex": "^0.5.0",
+    "audio-decode": "^2.1.3",
+    "axios": "^1.3.3",
+    "cache-manager": "4.0.1",
+    "futoin-hkdf": "^1.5.1",
+    "libphonenumber-js": "^1.10.20",
+    "music-metadata": "^7.12.3",
+    "node-cache": "^5.1.2",
+    "pino": "^7.0.0",
+    "protobufjs": "^7.2.4",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@adiwajshing/eslint-config": "github:adiwajshing/eslint-config",
+    "@types/got": "^9.6.11",
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.0.0",
+    "@types/sharp": "^0.29.4",
+    "@types/ws": "^8.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.6",
+    "jimp": "^0.16.13",
+    "json": "^11.0.0",
+    "link-preview-js": "^3.0.5",
+    "open": "^8.4.2",
+    "qrcode-terminal": "^0.12.0",
+    "release-it": "^15.10.3",
+    "sharp": "^0.32.6",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.8.1",
+    "typedoc": "^0.24.7",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "jimp": "^0.22.12",
+    "link-preview-js": "^3.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.6"
+  },
+  "peerDependenciesMeta": {
+    "jimp": {
+      "optional": true
+    },
+    "link-preview-js": {
+      "optional": true
+    },
+    "qrcode-terminal": {
+      "optional": true
+    },
+    "sharp": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "yarn@1.22.19"
+}
