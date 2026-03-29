@@ -1,5 +1,5 @@
 import { proto } from '../../WAProto'
-import { SignalRepository, WAMessage } from '../Types'
+import { SignalRepository } from '../Types'
 import { BinaryNode } from '../WABinary'
 import { ILogger } from './logger'
 
@@ -28,13 +28,13 @@ export declare const NACK_REASONS: {
  * @note this will only parse the message, not decrypt it
  */
 export declare function decodeMessageNode(stanza: BinaryNode, meId: string, meLid: string): {
-    fullMessage: WAMessage
+    fullMessage: proto.IWebMessageInfo
     author: string
     sender: string
 }
 
 export declare const decryptMessageNode: (stanza: BinaryNode, meId: string, meLid: string, repository: SignalRepository, logger: ILogger) => {
-    fullMessage: WAMessage
+    fullMessage: proto.IWebMessageInfo
     category: string
     author: string
     decrypt(): Promise<void>

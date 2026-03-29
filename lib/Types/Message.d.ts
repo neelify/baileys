@@ -19,10 +19,6 @@ export type WAContactMessage = proto.Message.IContactMessage
 export type WAContactsArrayMessage = proto.Message.IContactsArrayMessage
 
 export type WAMessageKey = proto.IMessageKey & {
-    remoteJidAlt?: string
-    participantAlt?: string
-    addressingMode?: string
-    isViewOnce?: boolean
     newsletter_server_id?: string
 }
 

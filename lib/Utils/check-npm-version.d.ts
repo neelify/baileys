@@ -1,4 +1,4 @@
-export interface VersionInfo {
+﻿export interface VersionInfo {
     current: string;
     latest: string;
     hasUpdate: boolean;
@@ -12,6 +12,7 @@ export interface VersionInfo {
  */
 export declare const checkNpmVersion: (packageName: string, currentVersion: string) => Promise<VersionInfo | null>;
 //# sourceMappingURL=check-npm-version.d.ts.map
+
 
 
 

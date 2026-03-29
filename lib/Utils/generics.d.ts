@@ -3,7 +3,6 @@ import { ILogger } from './logger'
 import { proto } from '../../WAProto'
 import { BaileysEventEmitter, BaileysEventMap, BrowsersMap, ConnectionState, WACallUpdateType, WAVersion } from '../Types'
 import { BinaryNode } from '../WABinary'
-import { WAMessageKey } from '../Types/Message'
 
 export declare const Browsers: BrowsersMap
 
@@ -14,7 +13,7 @@ export declare const BufferJSON: {
     reviver: (_: any, value: any) => any
 }
 
-export declare const getKeyAuthor: (key: WAMessageKey | proto.IMessageKey | undefined | null, meId?: string) => string
+export declare const getKeyAuthor: (key: proto.IMessageKey | undefined | null, meId?: string) => string
 
 export declare const writeRandomPadMax16: (msg: Uint8Array) => Buffer
 
@@ -77,7 +76,7 @@ export declare const fetchLatestBaileysVersion: (options?: AxiosRequestConfig<{}
  * A utility that fetches the latest web version of whatsapp.
  * Use to ensure your WA connection is always on the latest version
  */
-export declare const fetchLatestWaWebVersion: (options?: AxiosRequestConfig<{}>) => Promise<{
+export declare const fetchLatestWaWebVersion: (options: AxiosRequestConfig<{}>) => Promise<{
     version: WAVersion
     isLatest: boolean
     error?: undefined
