@@ -15,8 +15,10 @@
 ---
 
 <p align="center">
-  <img src="https://files.catbox.moe/ru1msl.jpeg" width="720" alt="Neele Baileys Header" />
+  <img src="https://files.catbox.moe/phppor.JPG" width="720" alt="Neele Baileys Header" />
 </p>
+
+<p align="center"><sub>2026 Glow-Up Edition - polished docs - clean namespace</sub></p>
 
 | 📦 Paket | 🎯 Baileys API | ✨ Highlights |
 |----------|----------------|----------------|
@@ -1075,3 +1077,11 @@ function attachProbe(sock) {
 Wenn du zuvor harte String-Vergleiche auf alte Scope-Namen verwendet hast (z.B. Telemetrie, Logger, Health-Checks), aktualisiere diese auf `@neelify/*`, damit Monitoring und Build-Checks sauber bleiben.
 
 ---
+
+---
+
+<div align="center">
+
+Copyright 2026 neelify
+
+</div>
