@@ -5,7 +5,7 @@
 ### *Die WhatsApp Web API, die alles kann*  
 ### *Smart Queue · QR-Code · Message ID · LID · TypeScript*
 
-[![Version](https://img.shields.io/badge/Version-2.2.6-ff69b4?style=for-the-badge&logo=github)](https://github.com/neelify/baileys)
+[![Version](https://img.shields.io/badge/Version-2.2.8-ff69b4?style=for-the-badge&logo=github)](https://github.com/neelify/baileys)
 [![Baileys API](https://img.shields.io/badge/Baileys_API-1.7.2-9b59b6?style=for-the-badge)](https://github.com/neelify/baileys)
 [![npm](https://img.shields.io/npm/v/@neelify/baileys?style=for-the-badge&color=ff69b4&logo=npm)](https://www.npmjs.com/package/@neelify/baileys)
 [![Downloads](https://img.shields.io/npm/dw/@neelify/baileys?style=for-the-badge&color=ff69b4&logo=npm)](https://www.npmjs.com/package/@neelify/baileys)
@@ -22,11 +22,11 @@
 
 | 📦 Paket | 🎯 Baileys API | ✨ Highlights |
 |----------|----------------|----------------|
-| **@neelify/baileys v2.2.6** | **1.7.2** | Upstream-Updates · QR-Code · Message ID · Update-Check von npm |
+| **@neelify/baileys v2.2.8** | **1.7.2** | Upstream-Updates · QR-Code · Message ID · Update-Check von npm |
 
-**✨ v2.2.6** · README Glow-Up · Kompatibel mit Baileys **1.7.2** · QR & Message ID unverändert · Update-Prüfung via npm-Registry
+**✨ v2.2.8** · README Glow-Up · Kompatibel mit Baileys **1.7.2** · QR & Message ID unverändert · Update-Prüfung via npm-Registry
 
-[**Installation**](#-installation) · [**Quickstart**](#-quickstart-guide) · [**Features**](#-neue-features-in-version-226) · [**Dokumentation**](#-dokumentation) · [**Support**](#-support--community)
+[**Installation**](#-installation) · [**Quickstart**](#-quickstart-guide) · [**Features**](#-neue-features-in-version-228) · [**Dokumentation**](#-dokumentation) · [**Support**](#-support--community)
 
 </div>
 
@@ -37,7 +37,7 @@
 - [✨ Warum @neelify/baileys?](#-warum-neelifybaileys)
 - [🚀 Installation](#-installation)
 - [📖 Quickstart Guide](#-quickstart-guide)
-- [✨ Neue Features in Version 2.2.6](#-neue-features-in-version-226)
+- [✨ Neue Features in Version 2.2.8](#-neue-features-in-version-228)
 - [💡 Grundlegende Verwendung](#-grundlegende-verwendung)
 - [🎯 Erweiterte Features](#-erweiterte-features)
 - [📚 Dokumentation](#-dokumentation)
@@ -190,7 +190,7 @@ startBot().catch(console.error)
 
 ---
 
-## ✨ Neue Features in Version 2.2.6
+## ✨ Neue Features in Version 2.2.8
 
 ### 🆕 **Was ist neu?**
 **Kompatibel mit Baileys API 1.7.2** · **Update-Check von npm-Registry** (1× pro Prozess) · **Message ID & QR-Code unverändert**
@@ -309,8 +309,8 @@ Bei jedem Start wird automatisch geprüft, ob eine neue Version verfügbar ist:
 ║  🔔 NEUES UPDATE VERFÜGBAR! 🔔        ║
 ╠════════════════════════════════════════╣
 ║  @neelify/baileys                    ║
-║  Aktuelle Version: 2.2.6               ║
-║  Neue Version:     2.2.7               ║
+║  Aktuelle Version: 2.2.8               ║
+║  Neue Version:     2.2.8               ║
 ║                                        ║
 ║  Bitte aktualisiere:                  ║
 ║  npm install @neelify/baileys@latest ║
@@ -862,9 +862,9 @@ const sock = makeWASocket({
 
 ## 📝 Changelog
 
-### Version 2.2.6 (Aktuell) 🎉
+### Version 2.2.8 (Aktuell) 🎉
 
-- 📖 **README Glow-Up** – Version 2.2.6, Badges & Changelog
+- 📖 **README Glow-Up** – Version 2.2.8, Badges & Changelog
 - 🔔 **Update-Check** – Liest Version von **npm-Registry** (registry.npmjs.org), nur 1× pro Prozess
 - ✨ Semver-Vergleich für „Update verfügbar“ nur bei wirklich neuerer Version
 - 🎨 **QR-Code** & **Message ID** – unverändert
