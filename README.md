@@ -5,7 +5,7 @@
 ### *Die WhatsApp Web API, die alles kann*  
 ### *Smart Queue · QR-Code · Message ID · LID · TypeScript*
 
-[![Version](https://img.shields.io/badge/Version-2.2.12-ff69b4?style=for-the-badge&logo=github)](https://github.com/neelify/baileys)
+[![Version](https://img.shields.io/badge/Version-2.2.13-ff69b4?style=for-the-badge&logo=github)](https://github.com/neelify/baileys)
 [![Baileys API](https://img.shields.io/badge/Baileys_API-1.7.2-9b59b6?style=for-the-badge)](https://github.com/neelify/baileys)
 [![npm](https://img.shields.io/npm/v/@neelify/baileys?style=for-the-badge&color=ff69b4&logo=npm)](https://www.npmjs.com/package/@neelify/baileys)
 [![Downloads](https://img.shields.io/npm/dw/@neelify/baileys?style=for-the-badge&color=ff69b4&logo=npm)](https://www.npmjs.com/package/@neelify/baileys)
@@ -22,11 +22,11 @@
 
 | 📦 Paket | 🎯 Baileys API | ✨ Highlights |
 |----------|----------------|----------------|
-| **@neelify/baileys v2.2.12** | **1.7.2** | Upstream-Updates · QR-Code · Message ID · Update-Check von npm |
+| **@neelify/baileys v2.2.13** | **1.7.2** | Upstream-Updates · QR-Code · Message ID · Update-Check von npm |
 
-**✨ v2.2.12** · README Glow-Up · Kompatibel mit Baileys **1.7.2** · QR & Message ID unverändert · Update-Prüfung via npm-Registry
+**✨ v2.2.13** · README Glow-Up · Kompatibel mit Baileys **1.7.2** · QR & Message ID unverändert · Update-Prüfung via npm-Registry
 
-[**Installation**](#-installation) · [**Quickstart**](#-quickstart-guide) · [**Features**](#-neue-features-in-version-2212) · [**Dokumentation**](#-dokumentation) · [**Support**](#-support--community)
+[**Installation**](#-installation) · [**Quickstart**](#-quickstart-guide) · [**Features**](#-neue-features-in-version-2213) · [**Dokumentation**](#-dokumentation) · [**Support**](#-support--community)
 
 </div>
 
@@ -37,7 +37,7 @@
 - [✨ Warum @neelify/baileys?](#-warum-neelifybaileys)
 - [🚀 Installation](#-installation)
 - [📖 Quickstart Guide](#-quickstart-guide)
-- [✨ Neue Features in Version 2.2.12](#-neue-features-in-version-2212)
+- [✨ Neue Features in Version 2.2.13](#-neue-features-in-version-2213)
 - [💡 Grundlegende Verwendung](#-grundlegende-verwendung)
 - [🎯 Erweiterte Features](#-erweiterte-features)
 - [📚 Dokumentation](#-dokumentation)
@@ -190,7 +190,7 @@ startBot().catch(console.error)
 
 ---
 
-## ✨ Neue Features in Version 2.2.12
+## ✨ Neue Features in Version 2.2.13
 
 ### 🆕 **Was ist neu?**
 **Kompatibel mit Baileys API 1.7.2** · **Update-Check von npm-Registry** (1× pro Prozess) · **Message ID & QR-Code unverändert**
@@ -309,8 +309,8 @@ Bei jedem Start wird automatisch geprüft, ob eine neue Version verfügbar ist:
 ║  🔔 NEUES UPDATE VERFÜGBAR! 🔔        ║
 ╠════════════════════════════════════════╣
 ║  @neelify/baileys                    ║
-║  Aktuelle Version: 2.2.10               ║
-║  Neue Version:     2.2.10               ║
+║  Aktuelle Version: 2.2.13               ║
+║  Neue Version:     2.2.13               ║
 ║                                        ║
 ║  Bitte aktualisiere:                  ║
 ║  npm install @neelify/baileys@latest ║
@@ -862,9 +862,9 @@ const sock = makeWASocket({
 
 ## 📝 Changelog
 
-### Version 2.2.12 (Aktuell) 🎉
+### Version 2.2.13 (Aktuell) 🎉
 
-- 📖 **README Glow-Up** – Version 2.2.12, Badges & Changelog
+- 📖 **README Glow-Up** – Version 2.2.13, Badges & Changelog
 - 🔔 **Update-Check** – Liest Version von **npm-Registry** (registry.npmjs.org), nur 1× pro Prozess
 - ✨ Semver-Vergleich für „Update verfügbar“ nur bei wirklich neuerer Version
 - 🎨 **QR-Code** & **Message ID** – unverändert
@@ -1090,22 +1090,22 @@ Copyright 2026 neelify
 
 ## 🔔 Update (05.04.2026)
 
-- npm-Release aktualisiert auf `@neelify/baileys@2.2.12`.
+- npm-Release aktualisiert auf `@neelify/baileys@2.2.13`.
 - QR-Ausgabe erhielt ein zentrales Branding (Header/Footer) mit dynamischer Versionsanzeige.
 - Update-Check läuft robust mit npm-Check plus GitHub-Fallback.
 - Inhalt der README wurde auf den vorherigen Stand zurückgesetzt; dieser Abschnitt ist die einzige neue Ergänzung.
 
 ## Was ausgebessert wurde
 
-- Veraltete Versionsangaben (`2.2.8`/`2.2.9`/`2.2.10`) auf den aktuellen Release-Stand gebracht.
-- Release-Box und Changelog-Kopf als „Aktuell“ auf `2.2.12` korrigiert.
+- Veraltete Versionsangaben (`2.2.8`/`2.2.9`/`2.2.13`) auf den aktuellen Release-Stand gebracht.
+- Release-Box und Changelog-Kopf als „Aktuell“ auf `2.2.13` korrigiert.
 
 ## Was verändert wurde
 
 - README wurde im bisherigen Stil belassen und nur releasebezogen aktualisiert.
-- Verweise auf den aktuellen Neelify-Release (`@neelify/baileys@2.2.12`) konsistent eingetragen.
+- Verweise auf den aktuellen Neelify-Release (`@neelify/baileys@2.2.13`) konsistent eingetragen.
 
 ## Was neu ist
 
-- Neuer Release-Hinweis für `2.2.12` mit Branding-/Update-Check-Kontext.
+- Neuer Release-Hinweis für `2.2.13` mit Branding-/Update-Check-Kontext.
 - Sichtbare Aktualisierung der Start-/Feature-Bereiche auf den aktuellen Versionsstand.

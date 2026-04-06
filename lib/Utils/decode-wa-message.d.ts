@@ -7,6 +7,8 @@ export declare const NO_MESSAGE_FOUND_ERROR_TEXT = "Message absent from node"
 
 export declare const MISSING_KEYS_ERROR_TEXT = "Key used already or never filled"
 
+export declare const BAD_MAC_ERROR_TEXT = "Bad MAC"
+
 export declare const NACK_REASONS: {
     ParsingError: number
     UnrecognizedStanza: number
