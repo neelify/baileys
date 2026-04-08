@@ -1,32 +1,51 @@
-# @neelify/baileys
+<div align="center">
 
-Neelify-Variante von Baileys als WhatsApp-Web-Basis fuer Node.js.
+# 🌸 @neelegirly/baileys 🌸
+
+### *The cutest WhatsApp Web API glow-up for Node.js*  
+### *QR Branding · LID Support · Stable Sessions · Update Checks*
+
+[![npm](https://img.shields.io/npm/v/@neelegirly/baileys?style=for-the-badge&color=ff69b4&logo=npm)](https://www.npmjs.com/package/@neelegirly/baileys)
+[![wa-api](https://img.shields.io/badge/wa--api-1.7.16-c77dff?style=for-the-badge)](https://www.npmjs.com/package/@neelegirly/wa-api)
+[![libsignal](https://img.shields.io/badge/libsignal-1.0.28-f4a261?style=for-the-badge)](https://www.npmjs.com/package/@neelegirly/libsignal)
+
+<p align="center">
+  <img src="https://files.catbox.moe/5bqumy.jpeg" width="420" alt="Neelegirly baileys hero" />
+</p>
+
+**🎀 Release-Stack:** `@neelegirly/baileys 2.2.17` · `@neelegirly/libsignal 1.0.28` · `@neelegirly/wa-api 1.7.16`
+
+</div>
+
+Neelegirly-Variante von Baileys als WhatsApp-Web-Basis fuer Node.js — gemacht fuer stabile Bots, schoene QR-Flows und einen sauber gepinnten Multi-Session-Stack.
 
 > Hinweis: Dieses Projekt ist nicht offiziell mit WhatsApp, Meta oder Baileys-Upstream verbunden.
 
-## Highlights
+## ✨ Highlights
 
-- Multi-Device WhatsApp Web API auf Node.js
-- Event-basierter Socket-Ansatz fuer Bots und Automatisierung
-- QR-Login mit Branding-Header und Branding-Footer
-- Dynamische Versionsanzeige fuer Paket/Wrapper beim QR-Flow
-- Update-Pruefung (npm zuerst, GitHub-Fallback) mit semver-Vergleich
+| Feature | Beschreibung | Status |
+| --- | --- | --- |
+| 💖 Multi-Device API | WhatsApp Web auf Node.js mit Event-Flow | ✅ |
+| 📷 QR Branding | Header/Footer + Wrapper-/Versionskontext direkt im QR-Flow | ✅ |
+| 🔔 Update-Checks | npm zuerst, GitHub-Fallback, semver-sicher | ✅ |
+| 🧷 LID / Session-Fokus | passend fuer moderne Multi-Device-/Linked-ID-Flows | ✅ |
+| 🎀 Neelegirly Scope | sauber auf `@neelegirly/*` ausgerichtet | ✅ |
 
-## Kompatibilitaet
+## 📦 Kompatibilitaet
 
 | Paket | Empfohlene Version |
 | --- | --- |
-| `@neelify/baileys` | `2.2.16` |
-| `@neelegirly/wa-api` | `1.7.15` |
-| `@neelify/libsignal` | `1.0.27` |
+| `@neelegirly/baileys` | `2.2.17` |
+| `@neelegirly/wa-api` | `1.7.16` |
+| `@neelegirly/libsignal` | `1.0.28` |
 
-## Installation
+## 🚀 Installation
 
 ```bash
-npm install @neelify/baileys @neelify/libsignal
+npm install @neelegirly/baileys@2.2.17 @neelegirly/libsignal@1.0.28 --save-exact
 ```
 
-## Quickstart
+## ⚡ Quickstart
 
 ```ts
 import makeWASocket, {
@@ -34,7 +53,7 @@ import makeWASocket, {
   fetchLatestBaileysVersion,
   DisconnectReason,
   Browsers
-} from '@neelify/baileys'
+} from '@neelegirly/baileys'
 
 async function start() {
   const { state, saveCreds } = await useMultiFileAuthState('./auth')
@@ -51,16 +70,14 @@ async function start() {
 
   sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
     if (connection === 'open') {
-      console.log('Verbunden')
+      console.log('Verbunden 💖')
       return
     }
 
     if (connection === 'close') {
       const statusCode = lastDisconnect?.error?.output?.statusCode
       const isLoggedOut = statusCode === DisconnectReason.loggedOut
-      if (!isLoggedOut) {
-        start().catch(console.error)
-      }
+      if (!isLoggedOut) start().catch(console.error)
     }
   })
 }
@@ -68,41 +85,31 @@ async function start() {
 start().catch(console.error)
 ```
 
-## Migration und Namespace
+> Direktes `sock.ev.on('creds.update', saveCreds)` ist fuer kleine Demos okay. In produktiven Multi-Session-Setups sollten Credential-Saves gebuendelt/debounced werden, damit Session-Dateien bei vielen Updates stabil bleiben.
 
-Wenn du vom Upstream kommst, nutze den Import-Scope von Neelify:
+## 🌐 Namespace-Migration
+
+Wenn du vom Upstream kommst, nutze den Import-Scope von Neelegirly:
 
 ```diff
 - import makeWASocket from '@whiskeysockets/baileys'
-+ import makeWASocket from '@neelify/baileys'
++ import makeWASocket from '@neelegirly/baileys'
 ```
 
-## QR-Branding und Versionsanzeige
+## 🩷 QR-Branding und Versionsanzeige
 
 Beim QR-Scan werden automatisch Markenzeilen oberhalb und unterhalb des QR-Codes ausgegeben.
-Die Anzeige liest Versionen dynamisch aus `package.json` und zeigt bei Bedarf einen kompakten Update-Hinweis an.
+Die Anzeige liest Versionen dynamisch aus `package.json`, erkennt Wrapper-Kontexte und zeigt bei Bedarf einen kompakten Update-Hinweis an.
 
-## Update-Check
+## 🔄 Update-Check
 
-- Pruefquelle 1: npm Registry (`registry.npmjs.org`)
-- Pruefquelle 2: GitHub Releases (`neelegirly/baileys`) als Fallback
-- Fehler/Timeouts werden abgefangen, ohne den Prozess zu stoppen
+- Quelle 1: npm Registry (`registry.npmjs.org`)
+- Quelle 2: GitHub Releases (`neelegirly/baileys`) als Fallback
+- Fehler und Timeouts werden abgefangen, ohne den Prozess zu stoppen
 - Semver-Vergleich wird numerisch ausgewertet
 
-## Was ausgebessert wurde
+## 🎉 Release-Notizen
 
-- Veraltete und inkonsistente Texte in der README wurden entfernt.
-- Uneinheitliche Bezeichnungen wurden auf den Scope `@neelify/...` korrigiert.
-- Funktionierender WhatsApp-Web-/Begleitgeraet-Stand als Release-Basis uebernommen.
-
-## Was veraendert wurde
-
-- README auf eine klare, technische Struktur mit Kompatibilitaet, Installation und Quickstart umgestellt.
-- Migration auf den Neelify-Namespace explizit dokumentiert.
-- Kompatibilitaetsmatrix auf `2.2.16 / 1.7.15 / 1.0.27` aktualisiert.
-
-## Was neu ist
-
-- Zentrales QR-Branding mit Header/Footer direkt im QR-Ausgabepfad.
-- Dynamische Versionsanzeige fuer `@neelify/baileys` und erkannte Wrapper-Kontexte.
-- Release auf Version `2.2.16` mit funktionierendem Stack-Stand fuer Onimai/Darkbot.
+- README im Hero-/Glow-up-Stil komplett erneuert
+- Stack auf `2.2.17 / 1.7.16 / 1.0.28` aktualisiert
+- QR-/Versionsbranding bleibt zentral im Package verankert
