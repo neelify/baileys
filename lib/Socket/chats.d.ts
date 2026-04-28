@@ -48,6 +48,11 @@ export declare const makeChatsSocket: (config: SocketConfig) => {
     resyncAppState: (collections: readonly ("critical_block" | "critical_unblock_low" | "regular_high" | "regular_low" | "regular")[], isInitialSync: boolean) => Promise<void>
     chatModify: (mod: ChatModification, jid: string) => Promise<void>
     cleanDirtyBits: (type: 'account_sync' | 'groups', fromTimestamp?: number | string) => Promise<void>
+    serverProps: {
+        privacyTokenOn1to1: boolean
+        profilePicPrivacyToken: boolean
+        lidTrustedTokenIssueToLid: boolean
+    }
     addLabel: (jid: string, labels: LabelActionBody) => Promise<void>
     addChatLabel: (jid: string, labelId: string) => Promise<void>
     removeChatLabel: (jid: string, labelId: string) => Promise<void>

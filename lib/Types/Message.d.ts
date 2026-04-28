@@ -19,6 +19,12 @@ export type WAContactMessage = proto.Message.IContactMessage
 export type WAContactsArrayMessage = proto.Message.IContactsArrayMessage
 
 export type WAMessageKey = proto.IMessageKey & {
+    remoteJidAlt?: string
+    remoteJidUsername?: string
+    participantAlt?: string
+    participantUsername?: string
+    participant_pn?: string
+    participant_lid?: string
     newsletter_server_id?: string
 }
 
@@ -199,6 +205,13 @@ export type PollResultOptions = {
     values: string[]
 }
 
+export type AlbumMessageOptions = {
+    /** Number of images expected in the album */
+    expectedImageCount?: number
+    /** Number of videos expected in the album */
+    expectedVideoCount?: number
+}
+
 type SharePhoneNumber = {
     sharePhoneNumber: boolean
 }
@@ -234,7 +247,10 @@ export type AnyMediaMessageContent = (({
     caption?: string
 } & Contextable & Buttonable & Templatable & Interactiveable )) & {
     mimetype?: string
-} & Editable
+} & Editable & {
+    /** key of the parent albumMessage to associate this media with */
+    albumParentKey?: WAMessageKey
+}
 
 export type ButtonReplyInfo = {
     displayText: string
@@ -332,7 +348,9 @@ export type AnyRegularMessageContent = (({
     }
 } | {
     pollResult: PollResultOptions
-} | {
+} | ({
+    album: AlbumMessageOptions
+} & Contextable & Mentionable) | {
     order: WAOrderMessage
 } | {
     product: WASendableProduct

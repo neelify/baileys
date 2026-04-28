@@ -49,7 +49,19 @@ type E2ESessionOpts = {
     session: E2ESession
 }
 
+type LIDPNMapping = {
+    lid: string
+    pn: string
+}
+
 export type SignalRepository = {
+    lidMapping: {
+        storeLIDPNMappings(mappings: LIDPNMapping[]): Promise<boolean>
+        getPNForLID(lid: string): Promise<string | null>
+        getLIDForPN(pn: string): Promise<string | null>
+        getLIDsForPNs(pns: string[]): Promise<LIDPNMapping[]>
+    }
+    migrateSession(fromJid: string, toJid: string): Promise<boolean>
     decryptGroupMessage(opts: DecryptGroupSignalOpts): Promise<Uint8Array>
     processSenderKeyDistributionMessage(opts: ProcessSenderKeyDistributionMessageOpts): Promise<void>
     decryptMessage(opts: DecryptSignalProtoOpts): Promise<Uint8Array>
@@ -63,6 +75,10 @@ export type SignalRepository = {
     }>
     injectE2ESession(opts: E2ESessionOpts): Promise<void>
     jidToSignalProtocolAddress(jid: string): string
+    validateSession(jid: string): Promise<{
+        exists: boolean
+        reason?: string
+    }>
 }
 
 export {}

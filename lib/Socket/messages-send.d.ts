@@ -123,6 +123,11 @@ export declare const makeMessagesSocket: (config: SocketConfig) => {
     resyncAppState: (collections: readonly ("critical_block" | "critical_unblock_low" | "regular_high" | "regular_low" | "regular")[], isInitialSync: boolean) => Promise<void>
     chatModify: (mod: import("../Types").ChatModification, jid: string) => Promise<void>
     cleanDirtyBits: (type: "account_sync" | "groups", fromTimestamp?: string | number | undefined) => Promise<void>
+    serverProps: {
+        privacyTokenOn1to1: boolean
+        profilePicPrivacyToken: boolean
+        lidTrustedTokenIssueToLid: boolean
+    }
     addLabel: (jid: string, labels: import("../Types/Label").LabelActionBody) => Promise<void>
     addChatLabel: (jid: string, labelId: string) => Promise<void>
     removeChatLabel: (jid: string, labelId: string) => Promise<void>

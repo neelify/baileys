@@ -24,7 +24,14 @@ export type BaileysEventMap = {
         isLatest?: boolean
         progress?: number | null
         syncType?: proto.HistorySync.HistorySyncType
+        chunkOrder?: number | null
         peerDataRequestSessionId?: string | null
+    }
+    /** signals history sync milestones (completion or stall) per sync type */
+    'messaging-history.status': {
+        syncType: proto.HistorySync.HistorySyncType
+        status: 'complete' | 'paused'
+        explicit: boolean
     }
     /** upsert chats */
     'chats.upsert': Chat[]
@@ -86,13 +93,18 @@ export type BaileysEventMap = {
     'group-participants.update': {
         id: string
         author: string
+        authorPn?: string
+        authorUsername?: string
         participants: string[]
         action: ParticipantAction
     }
     'group.join-request': {
         id: string
         author: string
+        authorPn?: string
+        authorUsername?: string
         participant: string
+        participantPn?: string
         action: RequestJoinAction
         method: RequestJoinMethod
     }
@@ -174,6 +186,7 @@ export type BufferedEventData = {
         isLatest: boolean
         progress?: number | null
         syncType?: proto.HistorySync.HistorySyncType
+        chunkOrder?: number | null
         peerDataRequestSessionId?: string
     }
     chatUpserts: {

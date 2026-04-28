@@ -10,7 +10,27 @@ export type ChatMutationMap = {
     [index: string]: ChatMutation
 }
 
+export declare const makeLtHashGenerator: ({ indexValueMap, hash }: Pick<LTHashState, 'hash' | 'indexValueMap'>) => {
+    mix: (mac: {
+        indexMac: Uint8Array
+        valueMac: Uint8Array
+        operation: proto.SyncdMutation.SyncdOperation
+    }) => void
+    finish: () => Promise<{
+        hash: Buffer
+        indexValueMap: LTHashState['indexValueMap']
+    }>
+}
+
 export declare const newLTHashState: () => LTHashState
+
+export declare const ensureLTHashStateVersion: (state: LTHashState) => LTHashState
+
+export declare const MAX_SYNC_ATTEMPTS: 2
+
+export declare const isMissingKeyError: (error: any) => boolean
+
+export declare const isAppStateSyncIrrecoverable: (error: any, attempts: number) => boolean
 
 export declare const encodeSyncdPatch: ({ type, index, syncAction, apiVersion, operation }: WAPatchCreate, myAppStateKeyId: string, state: LTHashState, getAppStateSyncKey: FetchAppStateSyncKey) => Promise<{
     patch: proto.ISyncdPatch

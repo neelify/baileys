@@ -16,15 +16,21 @@ export interface GroupMetadata {
     id: string
     addressingMode: string
     owner: string | undefined
+    ownerPn?: string
+    ownerUsername?: string
     ownerCountry: string, 
     subject: string
     /** group subject owner */
     subjectOwner?: string
+    subjectOwnerPn?: string
+    subjectOwnerUsername?: string
     /** group subject modification date */
     subjectTime?: number
     creation?: number
     desc?: string
     descOwner?: string
+    descOwnerPn?: string
+    descOwnerUsername?: string
     descId?: string
     /** if this group is part of a community, it returns the jid of the community to which it belongs */
     linkedParent?: string
@@ -48,6 +54,8 @@ export interface GroupMetadata {
     inviteCode?: string
     /** the person who added you to group or changed some setting in group */
     author?: string
+    authorPn?: string
+    authorUsername?: string
 }
 
 export interface WAGroupCreateResponse {
