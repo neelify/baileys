@@ -5,9 +5,9 @@
 ### *Die WhatsApp Web API mit sauberem Neelegirly-Glow-up*
 ### *QR Branding · Wrapper-Aware Update Notify · LID · Smart Queue*
 
-[![Version](https://img.shields.io/badge/Version-2.2.21-ff69b4?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@neelegirly/baileys)
+[![Version](https://img.shields.io/badge/Version-2.2.22-ff69b4?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/@neelegirly/baileys)
 [![wa-api](https://img.shields.io/badge/wa--api-1.8.6-c77dff?style=for-the-badge)](https://www.npmjs.com/package/@neelegirly/wa-api)
-[![libsignal](https://img.shields.io/badge/libsignal-1.0.30-f4a261?style=for-the-badge)](https://www.npmjs.com/package/@neelegirly/libsignal)
+[![libsignal](https://img.shields.io/badge/libsignal-1.0.31-f4a261?style=for-the-badge)](https://www.npmjs.com/package/@neelegirly/libsignal)
 [![Node](https://img.shields.io/badge/Node-16+-4caf50?style=for-the-badge&logo=node.js)](https://nodejs.org)
 [![npm](https://img.shields.io/npm/v/%40neelegirly%2Fbaileys?style=for-the-badge&color=ff69b4&logo=npm)](https://www.npmjs.com/package/@neelegirly/baileys)
 
@@ -15,9 +15,9 @@
   <img src="https://files.catbox.moe/5bqumy.jpeg" width="780" alt="@neelegirly/baileys Hero" />
 </p>
 
-<p align="center"><sub>2026 Glow-Up Edition · frische WA-API-, USync- und libsignal-Patches · Companion-Stack auf <strong>2.2.21 / 1.8.6 / 1.0.30</strong></sub></p>
+<p align="center"><sub>2026 Glow-Up Edition · frische WA-API-, USync- und libsignal-Patches · Companion-Stack auf <strong>2.2.22 / 1.8.6 / 1.0.31</strong></sub></p>
 
-[**Installation**](#-installation) · [**Quickstart**](#-quickstart) · [**Highlights**](#-highlights) · [**QR Branding**](#-qr-branding--update-status) · [**Migration**](#-namespace-migration) · [**Release Notes**](#-release-notes-2221)
+[**Installation**](#-installation) · [**Quickstart**](#-quickstart) · [**Highlights**](#-highlights) · [**QR Branding**](#-qr-branding--update-status) · [**Migration**](#-namespace-migration) · [**Release Notes**](#-release-notes-2222)
 
 </div>
 
@@ -42,7 +42,7 @@ Neelegirlys Variante von Baileys ist die WhatsApp-Web-Basis für stabile Bots, s
 
 ---
 
-## 🆕 Was sich in `v2.2.21` geändert hat
+## 🆕 Was sich in `v2.2.22` geändert hat
 
 - ✅ Aktuelle Baileys-Upstream-Fixes vom 24./25. April 2026 sauber übernommen
 - ✅ AB-Props-Query nutzt wieder den aktuellen `abt`/Protocol-1-Flow
@@ -50,8 +50,9 @@ Neelegirlys Variante von Baileys ist die WhatsApp-Web-Basis für stabile Bots, s
 - ✅ App-State-Sync robuster bei fehlenden Keys, Snapshot-Retry und Reconnects
 - ✅ Call-Events, Album-Messages und History/Media-Streaming erweitert
 - ✅ Baileys-WA-API mit robusteren Group-/Message-Guards, Reachout-/Message-Cap-Abfragen und Newsletter-Join/Leave-IDs aktualisiert
-- ✅ libsignal-Dependency auf `1.0.30` mit TypeScript-Definitionen und ProtocolAddress-Typen aktualisiert
+- ✅ libsignal-Dependency auf `1.0.31` mit TypeScript-Definitionen und ProtocolAddress-Typen aktualisiert
 - ✅ MEX-LID-Mappings werden in die Signal-Store-Anbindung übernommen
+- ✅ Link-Preview-Redirect-Retry und serverseitige MEX-Notifications fuer Reachout/Message-Capping geprueft
 
 ---
 
@@ -59,9 +60,9 @@ Neelegirlys Variante von Baileys ist die WhatsApp-Web-Basis für stabile Bots, s
 
 | Paket | Empfohlene Version |
 | --- | --- |
-| `@neelegirly/baileys` | `2.2.21` |
+| `@neelegirly/baileys` | `2.2.22` |
 | `@neelegirly/wa-api` | `1.8.6` |
-| `@neelegirly/libsignal` | `1.0.30` |
+| `@neelegirly/libsignal` | `1.0.31` |
 
 ---
 
@@ -70,19 +71,19 @@ Neelegirlys Variante von Baileys ist die WhatsApp-Web-Basis für stabile Bots, s
 ### npm
 
 ```bash
-npm install @neelegirly/baileys@2.2.21 @neelegirly/libsignal@1.0.30 --save-exact
+npm install @neelegirly/baileys@2.2.22 @neelegirly/libsignal@1.0.31 --save-exact
 ```
 
 ### yarn
 
 ```bash
-yarn add @neelegirly/baileys@2.2.21 @neelegirly/libsignal@1.0.30 --exact
+yarn add @neelegirly/baileys@2.2.22 @neelegirly/libsignal@1.0.31 --exact
 ```
 
 ### pnpm
 
 ```bash
-pnpm add @neelegirly/baileys@2.2.21 @neelegirly/libsignal@1.0.30 --save-exact
+pnpm add @neelegirly/baileys@2.2.22 @neelegirly/libsignal@1.0.31 --save-exact
 ```
 
 > Für den kompletten Neelegirly-Stack passt dazu `@neelegirly/wa-api@1.8.6`.
@@ -138,8 +139,8 @@ start().catch(console.error)
 
 | Paket | Rolle |
 |------|-------|
-| `@neelegirly/baileys 2.2.21` | Socket, Events, Messaging |
-| `@neelegirly/libsignal 1.0.30` | Signal-Protokoll-Komponente |
+| `@neelegirly/baileys 2.2.22` | Socket, Events, Messaging |
+| `@neelegirly/libsignal 1.0.31` | Signal-Protokoll-Komponente |
 | `@neelegirly/wa-api 1.8.6` | Lifecycle-, Session- und Update-Wrapper |
 
 ---
@@ -150,7 +151,7 @@ Beim QR-Scan werden automatisch Markenzeilen oberhalb und unterhalb des QR-Codes
 
 Typische Anzeige:
 
-- `Baileys Update-Status: up to date (2.2.21)`
+- `Baileys Update-Status: up to date (2.2.22)`
 - `Wrapper Update-Status: up to date (1.8.6)`
 - Bei echten Updates werden kompakte Hinweise auf `latest` eingeblendet
 
@@ -171,7 +172,7 @@ Wenn du direkt prüfen willst:
 ```ts
 import { checkNpmVersion } from '@neelegirly/baileys'
 
-const info = await checkNpmVersion('@neelegirly/baileys', '2.2.21', {
+const info = await checkNpmVersion('@neelegirly/baileys', '2.2.22', {
   githubRepo: 'neelegirly/baileys'
 })
 
@@ -191,14 +192,15 @@ Wenn du vom Upstream kommst, nutze den Neelegirly-Scope:
 
 ---
 
-## 📝 Release Notes `2.2.21`
+## 📝 Release Notes `2.2.22`
 
 - 🔧 Upstream-Änderungen vom 24./25. April 2026 portiert, ohne QR-/Update-Notify- oder Message-ID-Handling umzubauen
 - 🧩 Username-USync und Inbound-Username-Felder für Kontakte, Gruppen und Message Keys ergänzt
 - 🛡️ App-State-Sync und libsignal-LID/PN-Typen robuster gemacht
 - 🖼️ Album-Message-Sending und erweiterte Call-Event-Typen ergänzt
-- 🔐 libsignal auf `1.0.30` mit WhiskeySockets-TypeScript-Definitionen und ProtocolAddress-Typen gepinnt
-- 🔗 Companion-Stack auf `2.2.21 / 1.8.6 / 1.0.30` aktualisiert
+- 🔐 libsignal auf `1.0.31` mit WhiskeySockets-TypeScript-Definitionen und ProtocolAddress-Typen gepinnt
+- 🔗 Companion-Stack auf `2.2.22 / 1.8.6 / 1.0.31` aktualisiert
 - 🛡️ Null-/Undefined-Pfade in Gruppen-, Nachrichten- und Chat-ID-Verarbeitung gehärtet
 - 🧷 MEX-LID-Mappings werden in den Signal-Store übernommen
 - 🧩 Reachout- und Message-Cap-WA-API-Abfragen plus TypeScript-Definitionen ergänzt
+- 🔁 Link-Preview-Redirect-Retry-Counter repariert und Server-Push-MEX-Updates verarbeitet

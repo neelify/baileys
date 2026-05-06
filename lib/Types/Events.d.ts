@@ -9,7 +9,7 @@ import { Label } from './Label'
 import { LabelAssociation } from './LabelAssociation'
 import { MessageUpsertType, MessageUserReceiptUpdate, WAMessage, WAMessageKey, WAMessageUpdate } from './Message'
 import { NewsletterViewRole, SubscriberAction, NewsletterSettingsUpdate } from './Newsletter'
-import { ConnectionState } from './State'
+import { ConnectionState, NewChatMessageCapInfo } from './State'
 
 export type BaileysEventMap = {
     /** connection state has been updated -- WS closed, opened, connecting etc. */
@@ -145,6 +145,7 @@ export type BaileysEventMap = {
     	id: string
         update: NewsletterSettingsUpdate
     }
+    'message-capping.update': NewChatMessageCapInfo
     'limit-sharing.update': {
         id: string
         author: string
