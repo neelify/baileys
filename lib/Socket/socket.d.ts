@@ -40,6 +40,8 @@ export declare const makeSocket: (config: SocketConfig) => {
     /** Waits for the connection to WA to reach a state */
     waitForConnectionUpdate: (check: (u: Partial<import("../Types").ConnectionState>) => boolean | undefined, timeoutMs?: number | undefined) => Promise<void>
     sendWAMBuffer: (wamBuffer: Buffer) => Promise<BinaryNode>
+    fetchAccountReachoutTimelock: () => Promise<import("../Types").ReachoutTimelockState>
+    fetchNewChatMessageCap: () => Promise<import("../Types").NewChatMessageCapInfo>
 }
 
 export type Socket = ReturnType<typeof makeSocket>

@@ -100,4 +100,6 @@ export declare const makeChatsSocket: (config: SocketConfig) => {
      * requires the last messages till the last message received required for archive & unread
     */
     sendWAMBuffer: (wamBuffer: Buffer) => Promise<BinaryNode>
+    fetchAccountReachoutTimelock: () => Promise<import("../Types").ReachoutTimelockState>
+    fetchNewChatMessageCap: () => Promise<import("../Types").NewChatMessageCapInfo>
 }

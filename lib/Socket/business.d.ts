@@ -189,4 +189,6 @@ export declare const makeBusinessSocket: (config: SocketConfig) => {
     requestPairingCode: (phoneNumber: string, code?: string) => Promise<string>
     waitForConnectionUpdate: (check: (u: Partial<import("../Types").ConnectionState>) => boolean | undefined, timeoutMs?: number | undefined) => Promise<void>
     sendWAMBuffer: (wamBuffer: Buffer) => Promise<BinaryNode>
+    fetchAccountReachoutTimelock: () => Promise<import("../Types").ReachoutTimelockState>
+    fetchNewChatMessageCap: () => Promise<import("../Types").NewChatMessageCapInfo>
 }

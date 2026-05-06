@@ -90,14 +90,18 @@ export declare const enum XWAPaths {
     CREATE = "xwa2_newsletter_create",
     NEWSLETTER = "xwa2_newsletter",
     SUBSCRIBED = "xwa2_newsletter_subscribed", 
-    METADATA_UPDATE = "xwa2_notify_newsletter_on_metadata_update"
+    METADATA_UPDATE = "xwa2_notify_newsletter_on_metadata_update",
+    JOIN_V2 = "xwa2_newsletter_join_v2",
+    LEAVE_V2 = "xwa2_newsletter_leave_v2",
+    REACHOUT_TIMELOCK = "xwa2_fetch_account_reachout_timelock",
+    MESSAGE_CAPPING_INFO = "xwa2_message_capping_info"
 }
 
 export declare const enum QueryIds {
     JOB_MUTATION = "7150902998257522",
     METADATA = "6620195908089573",
-    UNFOLLOW = "7238632346214362",
-    FOLLOW = "7871414976211147",
+    UNFOLLOW = "9767147403369991",
+    FOLLOW = "24404358912487870",
     UNMUTE = "7337137176362961",
     MUTE = "25151904754424642",
     CREATE = "6996806640408138",
@@ -105,5 +109,7 @@ export declare const enum QueryIds {
     CHANGE_OWNER = "7341777602580933",
     DELETE = "8316537688363079",
     DEMOTE = "6551828931592903", 
-    SUBSCRIBED = "6388546374527196"
+    SUBSCRIBED = "6388546374527196",
+    REACHOUT_TIMELOCK = "23983697327930364",
+    MESSAGE_CAPPING_INFO = "24503548349331633"
 }

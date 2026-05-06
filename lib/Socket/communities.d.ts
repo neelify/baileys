@@ -224,5 +224,7 @@ export declare const makeCommunitiesSocket: (config: SocketConfig) => {
     requestPairingCode: (phoneNumber: string, customPairingCode?: string) => Promise<string>;
     waitForConnectionUpdate: (check: (u: Partial<import("../index.js").ConnectionState>) => Promise<boolean | undefined>, timeoutMs?: number) => Promise<void>;
     sendWAMBuffer: (wamBuffer: Buffer) => Promise<any>;
+    fetchAccountReachoutTimelock: () => Promise<import("../Types").ReachoutTimelockState>;
+    fetchNewChatMessageCap: () => Promise<import("../Types").NewChatMessageCapInfo>;
 };
 export declare const extractCommunityMetadata: (result: BinaryNode) => GroupMetadata;

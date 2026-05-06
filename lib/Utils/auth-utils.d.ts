@@ -18,4 +18,6 @@ export declare function makeCacheableSignalKeyStore(store: SignalKeyStore, logge
  */
 export declare const addTransactionCapability: (state: SignalKeyStore, logger?: ILogger, { maxCommitRetries, delayBetweenTriesMs }: TransactionCapabilityOptions) => SignalKeyStoreWithTransaction
 
+export declare const assertMeId: (creds: AuthenticationCreds) => string
+
 export declare const initAuthCreds: () => AuthenticationCreds
